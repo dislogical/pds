@@ -5,7 +5,8 @@ on:
   - pull_request
 
 jobs:
-  Vite:
+  vite:
+    name: Vite
     runs-on: ubuntu-latest
 
     steps:
