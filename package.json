@@ -8,10 +8,10 @@
     "@getcirrus/pds": "^0.18.0"
   },
   "devDependencies": {
-    "@cloudflare/vite-plugin": "^1.17.0",
-    "@types/node": "^24.0.0",
-    "vite": "^6.4.1",
-    "wrangler": "^4.54.0"
+    "@cloudflare/vite-plugin": "1.42.3",
+    "@types/node": "24.13.2",
+    "vite": "6.4.3",
+    "wrangler": "4.105.0"
   },
   "scripts": {
     "dev": "vite dev",
