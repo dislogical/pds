@@ -1,0 +1,17 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:best-practices",
+    "replacements:all",
+    ":automergeMinor",
+    ":automergeDigest"
+  ],
+  "packageRules": [
+    {
+      "groupName": "pre-commit hooks",
+      "groupSlug": "pre-commit",
+      "matchPackageNames": ["renovatebot/pre-commit-hooks"],
+      "extends": ["schedule:earlyMondays"]
+    }
+  ]
+}
