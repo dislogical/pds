@@ -1,6 +1,6 @@
 [tools]
 node = "26"
-"npm:pnpm" = "11"
+"npm:pnpm" = "12"
 
 [hooks]
 postinstall = 'pnpm install'
