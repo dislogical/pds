@@ -10,20 +10,20 @@ importers:
     dependencies:
       '@getcirrus/pds':
         specifier: ^0.19.0
-        version: 0.19.0(@atcute/lexicon-doc@2.2.1(@atcute/lexicons@1.3.1))(wrangler@4.135.0(@types/node@24.13.5))
+        version: 0.19.0(@atcute/lexicon-doc@2.2.1(@atcute/lexicons@1.3.1))(wrangler@4.135.0(@types/node@24.13.6))
     devDependencies:
       '@cloudflare/vite-plugin':
         specifier: 1.55.0
-        version: 1.55.0(@types/node@24.13.5)(vite@8.3.0(@types/node@24.13.5)(esbuild@0.28.1))(wrangler@4.135.0(@types/node@24.13.5))
+        version: 1.55.0(@types/node@24.13.6)(vite@8.3.0(@types/node@24.13.6)(esbuild@0.28.1))(wrangler@4.135.0(@types/node@24.13.6))
       '@types/node':
-        specifier: 24.13.5
-        version: 24.13.5
+        specifier: 24.13.6
+        version: 24.13.6
       vite:
         specifier: 8.3.0
-        version: 8.3.0(@types/node@24.13.5)(esbuild@0.28.1)
+        version: 8.3.0(@types/node@24.13.6)(esbuild@0.28.1)
       wrangler:
         specifier: 4.135.0
-        version: 4.135.0(@types/node@24.13.5)
+        version: 4.135.0(@types/node@24.13.6)
 
 packages:
 
@@ -857,8 +857,8 @@ packages:
   '@standard-schema/spec@1.1.0':
     resolution: {integrity: sha512-l2aFy5jALhniG5HgqrD6jXLi/rUWrKvqN/qJx6yoJsgKhblVd+iqqU4RCXavm/jPityDo5TCvKMnpjKnOriy0w==}
 
-  '@types/node@24.13.5':
-    resolution: {integrity: sha512-TXyindR+lBr22aJIdMQzCFHPHR6cR4js838mRDCSz5hOKWZvZwsXSSiXDmjRj4iJmgl+sR9O+1mkoVBSMadNug==}
+  '@types/node@24.13.6':
+    resolution: {integrity: sha512-SGrw/h3KPFshy3OE6ZL53LMBG5vGQQ8/gIpiqz/kRZhPJ7HgwCEs8LBuNtWLa8dvGZVpSF7+Bf+c11HUrCb/yg==}
 
   abort-controller@3.0.0:
     resolution: {integrity: sha512-h8lQ8tacZYnR3vNQTgibj+tODHI5/+l06Au2Pcriv/Gmet0eaj4TwWH41sO9wnHDiQsEj19q0drzdWdeAHtweg==}
@@ -1746,14 +1746,14 @@ snapshots:
     optionalDependencies:
       workerd: 1.20260918.1
 
-  '@cloudflare/vite-plugin@1.55.0(@types/node@24.13.5)(vite@8.3.0(@types/node@24.13.5)(esbuild@0.28.1))(wrangler@4.135.0(@types/node@24.13.5))':
+  '@cloudflare/vite-plugin@1.55.0(@types/node@24.13.6)(vite@8.3.0(@types/node@24.13.6)(esbuild@0.28.1))(wrangler@4.135.0(@types/node@24.13.6))':
     dependencies:
       '@cloudflare/unenv-preset': 2.16.1(unenv@2.0.0-rc.24)(workerd@1.20260917.1)
-      miniflare: 5.20260917.0-alpha(@types/node@24.13.5)
+      miniflare: 5.20260917.0-alpha(@types/node@24.13.6)
       unenv: 2.0.0-rc.24
-      vite: 8.3.0(@types/node@24.13.5)(esbuild@0.28.1)
+      vite: 8.3.0(@types/node@24.13.6)(esbuild@0.28.1)
       workerd: 1.20260917.1
-      wrangler: 4.135.0(@types/node@24.13.5)
+      wrangler: 4.135.0(@types/node@24.13.6)
       ws: 8.21.0
     transitivePeerDependencies:
       - '@types/node'
@@ -1892,7 +1892,7 @@ snapshots:
       - '@atcute/cid'
       - '@atcute/lexicon-doc'
 
-  '@getcirrus/pds@0.19.0(@atcute/lexicon-doc@2.2.1(@atcute/lexicons@1.3.1))(wrangler@4.135.0(@types/node@24.13.5))':
+  '@getcirrus/pds@0.19.0(@atcute/lexicon-doc@2.2.1(@atcute/lexicons@1.3.1))(wrangler@4.135.0(@types/node@24.13.6))':
     dependencies:
       '@atcute/atproto': 3.1.12(@atcute/lexicons@1.3.1)
       '@atcute/bluesky': 3.3.5(@atcute/lexicons@1.3.1)
@@ -1919,7 +1919,7 @@ snapshots:
       jose: 6.2.12
       picocolors: 1.1.1
       qrcode: 1.5.4
-      wrangler: 4.135.0(@types/node@24.13.5)
+      wrangler: 4.135.0(@types/node@24.13.6)
     transitivePeerDependencies:
       - '@atcute/lexicon-doc'
 
@@ -2248,7 +2248,7 @@ snapshots:
 
   '@standard-schema/spec@1.1.0': {}
 
-  '@types/node@24.13.5':
+  '@types/node@24.13.6':
     dependencies:
       undici-types: 7.18.2
 
@@ -2435,10 +2435,10 @@ snapshots:
     dependencies:
       p-locate: 4.1.0
 
-  miniflare@5.20260917.0-alpha(@types/node@24.13.5):
+  miniflare@5.20260917.0-alpha(@types/node@24.13.6):
     dependencies:
       '@cspotcode/source-map-support': 0.8.1
-      sharp: 0.35.4(@types/node@24.13.5)
+      sharp: 0.35.4(@types/node@24.13.6)
       undici: 7.29.0
       workerd: 1.20260917.1
       ws: 8.21.0
@@ -2448,10 +2448,10 @@ snapshots:
       - bufferutil
       - utf-8-validate
 
-  miniflare@5.20260918.0-alpha(@types/node@24.13.5):
+  miniflare@5.20260918.0-alpha(@types/node@24.13.6):
     dependencies:
       '@cspotcode/source-map-support': 0.8.1
-      sharp: 0.35.4(@types/node@24.13.5)
+      sharp: 0.35.4(@types/node@24.13.6)
       undici: 7.29.0
       workerd: 1.20260918.1
       ws: 8.21.0
@@ -2605,7 +2605,7 @@ snapshots:
 
   set-blocking@2.0.0: {}
 
-  sharp@0.35.4(@types/node@24.13.5):
+  sharp@0.35.4(@types/node@24.13.6):
     dependencies:
       '@img/colour': 1.1.0
       detect-libc: 2.1.2
@@ -2636,7 +2636,7 @@ snapshots:
       '@img/sharp-win32-arm64': 0.35.4
       '@img/sharp-win32-ia32': 0.35.4
       '@img/sharp-win32-x64': 0.35.4
-      '@types/node': 24.13.5
+      '@types/node': 24.13.6
 
   sisteransi@1.0.5: {}
 
@@ -2711,7 +2711,7 @@ snapshots:
 
   varint@6.0.0: {}
 
-  vite@8.3.0(@types/node@24.13.5)(esbuild@0.28.1):
+  vite@8.3.0(@types/node@24.13.6)(esbuild@0.28.1):
     dependencies:
       lightningcss: 1.33.0
       picomatch: 4.0.7
@@ -2719,7 +2719,7 @@ snapshots:
       rolldown: 1.2.7
       tinyglobby: 0.2.17
     optionalDependencies:
-      '@types/node': 24.13.5
+      '@types/node': 24.13.6
       esbuild: 0.28.1
       fsevents: 2.3.3
 
@@ -2741,13 +2741,13 @@ snapshots:
       '@cloudflare/workerd-linux-arm64': 1.20260918.1
       '@cloudflare/workerd-windows-64': 1.20260918.1
 
-  wrangler@4.135.0(@types/node@24.13.5):
+  wrangler@4.135.0(@types/node@24.13.6):
     dependencies:
       '@cloudflare/kv-asset-handler': 0.5.0
       '@cloudflare/unenv-preset': 2.16.1(unenv@2.0.0-rc.24)(workerd@1.20260918.1)
       blake3-wasm: 2.1.5
       esbuild: 0.28.1
-      miniflare: 5.20260918.0-alpha(@types/node@24.13.5)
+      miniflare: 5.20260918.0-alpha(@types/node@24.13.6)
       path-to-regexp: 6.3.0
       unenv: 2.0.0-rc.24
       workerd: 1.20260918.1
