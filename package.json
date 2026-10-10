@@ -12,7 +12,7 @@
     "@cloudflare/vite-plugin": "1.62.5",
     "@types/node": "24.19.1",
     "vite": "8.3.3",
-    "wrangler": "4.147.0"
+    "wrangler": "4.148.0"
   },
   "scripts": {
     "dev": "vite dev",
